@@ -1,0 +1,157 @@
+
+*,body,html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.gambar{
+    background-image: url(.//gunung.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .navigasiwrap */
+    /* background-color: aquamarine; */
+
+
+.navigasi{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+       
+}
+
+.nav{
+    margin: 7px;
+    padding: 20px;
+    list-style-type: none;
+    position: relative;
+}
+
+.nav >a{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.brand{
+    position: absolute;
+    margin: 20px;
+    color: bisque;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.nav ::after{
+    content: '';
+    width: 0;
+    background-color:rgb(161, 152, 201);
+    position: absolute;
+    left: 0;
+    margin-top: -20px;
+    transition: 0.4s;
+    border-radius: 10px;
+
+}
+
+.nav :hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;    
+}
+
+.nav:hover>a{
+    color: rgb(91, 196, 223);
+}
+
+.nav >a{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.2em;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.navi{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    list-style-type:none;
+}
+
+.navi >a{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.2em;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+section{
+    height: 100vh;
+}
+
+.menuwrap{
+   
+    width: 100%;
+    height: 100%;
+}
+
+.menuwrap h2{
+    text-align: center;
+    color: rgb(243, 243, 243);
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.menuwrap iframe{
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    margin-left: 200px;
+    border-radius: 15px;
+    border-color: blanchedalmond;
+  
+}
+
+
+.purple{
+    background-color: rgb(36, 26, 46);
+   
+}
+
+.userphp >h1{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    padding-top: 150px;
+    margin-left: 30px;
+    animation-delay: 3s;
+    
+}
+
+/* Yang Bawah Masih Pr Projekan */
+
+/* .green{
+    background-color: yellowgreen;
+    
+}
+
+.red{
+    background-color: rgb(253, 148, 10);
+} */
+
