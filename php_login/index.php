@@ -138,6 +138,7 @@
      </table>
      </form>
 
+    <p style="text-align:center;margin-top:10px;">Belum punya akun kah?<span style="color:blue;cursor:pointer;"><a href="regis.html" target="blank">register dulu</span></a></p>
      </div>
 
      </div>

@@ -1,7 +1,7 @@
 
     <?php
-    //Melakukan koneksi 
-   $koneksi = mysqli_connect("localhost","root","","impirium");
+    //Melakukan koneksi  
+     $koneksi = mysqli_connect("localhost","root","","impirium");
 
 
    //Memeriksa Koneksi database

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-color: rgba(255, 255, 255, .15); */
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 450px;
+    width: 700px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ .container h2{
+     text-align: center;
+     font-size:20px;
+     padding: 18px;
+     background-color: yellow;
+     border-radius: 10px;
+ }
+
+ .baground{
+    background-image: url(./Login/pohon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center   ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+ .container table{
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ font-size: 20px;
+ margin-top: 20PX;
+ }
+
+.container table input{
+ 
+ padding: 8px 10px;
+ margin-bottom: 15px;
+ margin-top: 20px;
+ border: none;
+ background-color: transparent;
+ border-bottom: 2px solid rgb(250, 121, 35);
+ color: black;
+ font-size: 20px;
+
+ 
+ 
+}
+
+.container button{
+ width: 100%;
+ margin-top: 70PX;
+ padding: 15px 0;
+ border-radius: 10px;
+ border: none;
+ background-color:rgb(250, 121, 35);
+ font-size: 18px;
+ color: #fafafa;
+ cursor: pointer;
+ transform: translateX(100%);
+}
+
+.info{
+ text-align: center;
+ color:rgb(71, 41, 182);
+ font-size: 20px;
+ font-style: italic;
+}
